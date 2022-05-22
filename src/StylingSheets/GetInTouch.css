@@ -1,0 +1,91 @@
+.git-container{
+    height: 90vh;
+    width: 100vw;
+    background: url('../Images/getTouch.svg')  no-repeat  center ;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+h2{margin: 10vh 0;;
+    color: rgb(255, 0, 179);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.form{
+    height: 70vh;
+    width: 70vw;
+    margin-bottom: 10vh
+}
+.form-data{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 10px;
+}
+.form-data input{
+    margin: 25px 0;
+    width: 50%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+.lightID::placeholder{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.darkID::placeholder{
+    text-align: center;
+    color: rgb(255,255,255);
+}
+#submit-git{
+    margin-top: 10px;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+}
+#submit-git:hover{
+    border: 2px solid black;
+    transition: 0.2s ease;
+    color: white;
+    background-color: #6c63ff;
+}
+.inputph{
+    color: white;
+}
+
+@media only screen and (max-width: 890px) {
+    .git-container{
+        height:70vh
+    }
+    .git-container h2{
+    margin-top:10vh;
+    }
+    .form{
+        height: 300px;
+        width: 90%;
+    }
+    .form-data input{
+        color: rgb(0, 0, 0);
+        height: 40px;
+        width: 100%;
+    }
+    #submit-git{
+        width: 40%;
+        border: 2px solid;
+    }
+    /* .git-container h2{
+        font-size: 1.5rem;
+    } */
+}

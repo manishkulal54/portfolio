@@ -1,0 +1,81 @@
+.foot-container{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.icons{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.icons ul li{
+    margin:0 5vw;  
+}
+.foot-texts{
+    height: 50px;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-texts >div{
+    width: max-content;
+    height: 100%;    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+}
+.icons img:hover{
+    width: 45px ;
+    height: 45px;
+}
+.foot-container p{
+    text-align: center;
+}
+.foot-info p a{
+    color: rgb(114, 0, 80)
+}
+
+.footDarkMode{
+    background: black;   
+    color: white;
+}
+.footLightMode{
+    color: black;
+    background: rgb(168 159 189);
+}
+.inverter{
+    filter: invert(100%);
+    padding: 0;
+}
+.notInverter{
+    filter: invert(0%);
+}
+
+@media only screen and (max-width:800px) {
+    .icons ul li img{
+        width: 30px;
+        height: 30px;
+    }
+    .foot-container{
+        height: 300px;
+    }
+}

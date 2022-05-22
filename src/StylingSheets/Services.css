@@ -1,0 +1,68 @@
+.services-container{
+    width: 100vw;
+    height: max-content;
+}
+.Service-h2{
+    margin-top: 7vh;
+    text-align: center;
+    font-size: 3rem;
+    color: #0099ff;
+}.cardContainer{
+    height: 70vh;
+    width: 100%;
+}
+.carousel-indicators{
+    position: relative;
+    top: 55vh;
+}
+.carousel-indicators li {
+    filter: invert();
+}
+.carousel-indicators li .active{
+    filter: invert();
+}
+.carousel-control-prev{
+    left: 0;
+    top: 10vh;
+}
+.carousel-control-next{
+    right: 0;
+    top: 10vh;
+}
+
+.card{
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    border: 2px solid #0099ff;
+    overflow: hidden;
+    margin: auto;
+}
+.card h4{
+    margin: 3vh 0;
+}
+.servLightMode{
+    background: rgb(168 159 189);
+    color: black;
+}
+.servDarkMode{
+    background: black;
+    color: white;
+}
+.pre-next-button{
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 890px) {
+    .card{
+        height: 30vh;
+        width: 65%;
+    }
+    .carousel-indicators{
+        top: 45vh;
+    }
+}
+/* .carousel-indicators [data-bs-target]{
+    background-color: black;
+} */

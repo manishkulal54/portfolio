@@ -1,0 +1,114 @@
+/* Hamburger */
+
+
+/* .hamburger{
+    margin: 63px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    z-index: 6;
+}
+.paddingForHam{
+    padding-left: 1vw;
+}
+.paddingNotForHam{
+    padding: 0;
+} */
+
+
+
+/* .hamburgerSpan1-dark,.hamburgerSpan2-dark,.hamburgerSpan3-dark{
+    height: 1px;
+    width: 41px;
+    margin: 4.5px;
+    background: rgb(253, 250, 250);
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 10;
+} */
+
+
+/* dark light mode */
+.form-positioner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* scroll image */
+.scrollPng{
+    position: absolute;
+    bottom: 0;
+}
+.scrollPng img{
+    width: 14vw;
+}
+
+
+/* Links */
+
+
+
+
+
+
+
+/* text */
+
+
+
+
+.navbarSvg{
+    position: absolute;
+    bottom: -1px;
+    z-index: -1;
+}
+
+.svgImg{
+    position: absolute;
+    right: 2vw;
+    top: 5vh;
+}
+.svgImg img{
+    width: 30vw;
+}
+
+
+/* responsive */
+
+
+@media only screen and (max-width:1000px) {
+    .svgImg{
+        right: 26vw;
+        top: 46vh;
+        z-index: -1;
+    }
+    .svgImg img {
+        width: 52vw;
+    }
+    
+}
+ @media only screen and (max-width: 450px) {
+     .svgImg{
+        top: 20vh;
+        z-index: -1;
+    }
+    .svgImg img {
+        width: 33vw;
+    }
+    .homeTexts h2 {
+        font-size: 2rem;
+    }
+    .home_autoTyping_word{
+        flex-direction: column;
+    }
+    .svgImg{  
+        top: 25vh;
+        left: 15vw;
+        z-index: -1;
+    }
+    .svgImg img {
+       width: 87vw;
+    }
+}
+

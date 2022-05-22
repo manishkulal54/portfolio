@@ -1,0 +1,85 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+
+.home-container{
+    background: url('../Images/homeSVG.svg') no-repeat center top;
+    background-size: 55vh;
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger-in-home{
+    height: max-content;
+    width: max-content;
+}
+
+.homeTexts{
+    height:max-content;
+    width: fit-content;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.subTexts{
+    width: 100%;
+    text-align: end;
+    margin-right: 14vw;
+}
+.homeTexts h2{
+    font-size: 2rem;
+    padding: 0;
+    margin: 5px 14vw;
+    text-align: end;
+}
+.homeTexts h2 span{
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.home_autoTyping_word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.8rem;;
+}
+.Typewriter__wrapper{
+    font-weight: 500;
+}
+.home_autoTyping_word span{
+    margin-right: 2px;
+}
+.home-b-svg{
+    position: absolute;
+    bottom: 0;
+}
+.hamburger-pos{
+    position: absolute;
+    top: 5vh;
+    left: 45%;
+}
+.toggleMode{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .homeTexts{
+        font-size: 1.5rem;
+    }
+}

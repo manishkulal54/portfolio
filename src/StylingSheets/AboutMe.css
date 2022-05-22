@@ -1,0 +1,45 @@
+.aboutme-container{ 
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.h2{
+    padding: 0;
+    margin: 0;
+}
+.aboutme-container_aos{
+    width: 50vw;
+    height: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.text{
+    margin: 20px;
+    height: max-content;
+    font-size: 2rem;
+}
+.text span{
+    font-size: 4rem;
+    color: #0099ff;
+}
+
+
+@media only screen and (max-width:800px) {
+    .aboutme-container{
+        height: max-content;
+    }
+    .h2{
+        margin-top: 108px;
+    }
+}
+@media only screen and (max-width:1000px)
+{
+    .aboutme-container_aos{
+        /* margin: 20vh auto; */
+    }
+} 
