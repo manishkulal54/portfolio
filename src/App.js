@@ -55,15 +55,11 @@ function App() {
             <Footer mode={mode} toggleMode={toggleMode}/>
             </>
             }/>
-          {/* <Route path='/services' element={<Signup mode={mode} toggleMode={toggleMode} />}/> */}
           <Route path='contact' element={<ContactUs mode={mode} toggleMode={toggleMode} />}/>
           <Route path='projects' element={<Projects mode={mode} toggleMode={toggleMode} />}/>
         </Routes>
       </BrowserRouter>
     </>
-    // <>
-    
-    // </>
   );
 }
 

@@ -128,10 +128,8 @@
 .link_conatiner{
     width: 100vw;
     height: 85vh;
-    /* transform: translateX(-50%); */
     position: relative;
     left: -45%;
-    border: 3px solid black;
 }
 ul{
     height:90%;

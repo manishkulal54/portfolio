@@ -24,27 +24,6 @@ export default function GetInTouch(props) {
     else{
       setGitStatus('Cannot empty')
     }
-    // const response = await fetch("http://localhost:3001/getintouchdata", {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json'
-    //   },
-    //   body: JSON.stringify({
-    //     gitEmail,
-    //     gitName
-    //   }),
-    // })
-    // const data = await response.json()
-    // console.log(data);
-    // if (data.status === 'error') {
-    //   setGitStatus(data.error)
-    // }
-    // else {
-    //   setGitStatus('You ar connected with us')
-    // }
-    // setInterval(() => {
-    //   setGitStatus('')
-    // }, 3000);
   }
 
   return (

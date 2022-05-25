@@ -25,7 +25,6 @@ export default function Skills(props) {
     return (
         <>
             <div className="skills-container" id='skills' >
-                {/* <p className='mb-3'><h2>Skills And Experience</h2></p> */}
                 <h2>Skills And Experience</h2>
                 <div className="progress-div">
                     <div className="progress mt-3" style={skillsStyleLight} data-aos="fade-right">

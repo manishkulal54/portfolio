@@ -4,10 +4,8 @@ import '../StylingSheets/Navbar.css'
 
 export default function Hamburger(props) {
     window.onscroll=(e)=>{
-        // console.log(e);
         const scrollFromTopLength  = window.pageYOffset || document.documentElement.scrollTop
         // const left = window.pageXOffset || document.documentElement.scrollLeft;
-        console.log(scrollFromTopLength);
         if (scrollFromTopLength>=500){
         setToggleclass('close')
             setIsDisNone("disNone")

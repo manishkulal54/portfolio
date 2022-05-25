@@ -36,20 +36,6 @@ export default function ContactUs(props) {
         e.preventDefault()
         alert('contact is developing')
         window.location.href='/'
-        // const response = await fetch("http://localhost:3001/contactusdata", {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json'
-        //     },
-        //     body: JSON.stringify({
-        //         contactEmail,
-        //         contactName,
-        //         contactQuery
-        //     }),
-        // })
-        // alert('submitted')
-        // const data = await response.json()
-        // console.log(data);
     }
 
 
